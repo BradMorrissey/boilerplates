@@ -1,0 +1,18 @@
+version: '3.1'
+services:
+  db:
+    image: mariadb
+    volumes:
+      - mariadb:/var/lib/mysql
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: "${MARIADB_ROOT_PASS}"
+    ports:
+      - "${MARIADB_PORT}:3306"
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - "${ADMINER_PORT}:8080"
+volumes:
+  mariadb:
