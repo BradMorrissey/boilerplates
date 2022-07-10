@@ -6,7 +6,7 @@ services:
       - mariadb:/var/lib/mysql
     restart: always
     environment:
-      MARIADB_ROOT_PASSWORD: "${MARIADB_ROOT_PASS}"
+      - MARIADB_ROOT_PASSWORD="${MARIADB_ROOT_PASS}"
     ports:
       - "${MARIADB_PORT}:3306"
   adminer:
