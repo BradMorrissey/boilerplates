@@ -11,3 +11,5 @@ I have created this as a repository of free resources to guide you on how you ca
 # Support
 
 If you would like to contribute to this little project of mine, feel free to create a pull request with your additions/changes and I'll do my best to review and incorporate your additions/changes as soon as possible.
+
+If you notice any issues with any of the files in this repository, please either create a pull request with your changes or submit an issue and I'll look into it as soon as possible.
